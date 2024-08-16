@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Gupter:wght@400;500;700&display=swap');
+
+.box__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1px;
+
+  width: 100px;
+  height: 100px;
+  border: 2px solid red;
+}
+
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  width: 100px;
+  height: 100px;
+  border: 2px dashed red;
+}
+
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  width: 100px;
+  height: 100px;
+  border: 2px dotted red;
+}
+
+.box4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  width: 100px;
+  height: 100px;
+  border: 2px double red;
+}
+
+.box5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  width: 100px;
+  height: 100px;
+  border: 2px hidden red;
+}
+
+.btns__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn1 {
+  border: none;
+}
+
+.btn2 {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.btn3 {
+  border-top: 2px solid red;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.btn4 {
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+.btn5 {
+  border: none;
+  border-left: 2px solid red;
+}
+
+.btn6 {
+  border: none;
+  border-right: 2px solid red;
+}
+
+.text {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: start;
+  letter-spacing: 1px;
+  margin: 50px;
+  border: none;
+  border: 2px solid black;
+  width: 220px;
+}
+
+.text-top {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: start;
+  letter-spacing: 1px;
+  margin: 50px;
+  border: none;
+  border-top: 2px solid black;
+  width: 220px;
+}
+.text-bottom {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: start;
+  letter-spacing: 1px;
+  margin: 50px;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 220px;
+}
+.text-left {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: start;
+  letter-spacing: 1px;
+  margin: 50px;
+  border: none;
+  border-left: 2px solid black;
+  width: 220px;
+}
+.text-right {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: start;
+  letter-spacing: 1px;
+  margin: 50px;
+  border: none;
+  border-right: 2px solid black;
+  width: 220px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border: 8px solid rgb(255, 0, 0);
+  margin: 50px;
+}
+
+.card2 {
+  width: 200px;
+  height: 200px;
+  border: 8px dashed rgb(255, 0, 0);
+  margin: 50px;
+}
+.card3 {
+  width: 200px;
+  height: 200px;
+  border: 8px dotted rgb(255, 0, 0);
+  margin: 50px;
+}
+.card4 {
+  width: 200px;
+  height: 200px;
+  border: 8px double rgb(255, 0, 0);
+  margin: 50px;
+}
+
+button {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: rgb(255, 0, 0);
+  background-color: aqua;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.border1 {
+  border: none;
+}
+
+.border2 {
+  border: none;
+  border-top: 2px solid red;
+}
+.border3 {
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+.border4 {
+  border: none;
+  border-left: 2px solid red;
+}
+
+.border5 {
+  border: none;
+  border-right: 2px solid red;
+}
+
+.box_card {
+  width: 250px;
+  height: 250px;
+  background: aqua;
+  border-top: 8px solid red;
+  border-right: 8px dashed blue;
+  border-bottom: 8px dotted green;
+  border-left: 8px double gray;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: white;
+  margin: 50px;
+  transition: .5s linear;
+  border-radius: 10px;
+  padding-top: 80px;
+  box-sizing: border-box;
+  font-family: "Gupter", serif;
+}
+
+.box_card:hover{
+  border-top: 8px dashed blue;
+  border-right: 8px dotted green;
+  border-bottom: 8px double gray;
+  border-left: 8px solid black;
+  background:red;
+  cursor: pointer;
+}
